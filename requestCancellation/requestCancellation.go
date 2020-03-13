@@ -11,8 +11,8 @@ import (
 
 
 // problem statement: I want to stop server side processed request when browser is closed.
-// Obeservation : Do not use c as a context from handler func in gin framework (where c is func Test(c *gin.Context))
-//    			  Always use c.Request.Context() function for context
+// Observation : Do not use c as a context from handler func in gin framework (where c is func Test(c *gin.Context))
+//    		 Always use c.Request.Context() function for context
 
 // How to test?
 //Step 1: Start server
