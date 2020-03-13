@@ -18,7 +18,7 @@ import (
 //Step 1: Start server
 //Step 2: Hit localhost:3030/test in your browser
 //step 3: then close tab or browser
-
+func main() {
 	g := gin.Default()
 	g.GET("/test", Test)
 
